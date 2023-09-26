@@ -20,6 +20,7 @@ h1{
 
 /*--------- LOGO ---------*/ 
 
+
 body {
     background-color:#f6f8f9 ;
     margin: 0;
@@ -33,6 +34,7 @@ body {
     margin-top: 40px;
 }
 
+/* -------- BUTTON BOX  ------------*/
 .button-box {
     height: 80px;
     line-height: 80px;
@@ -51,8 +53,7 @@ body {
     border-color: #14aaf5;
     padding-inline: 12px;
     padding-block: 8px;
-    border-radius: 15%;
-    
+    border-radius: 15%;  
 }
 
 #button-section {
@@ -65,7 +66,9 @@ body {
     padding-block: 8px;
     border-radius: 15%;   
 }
+/* -------- BUTTON BOX   ------------*/
 
+/* -------- MAIN BOX E LISTE   ------------*/
 .main-box {
     background-color: white;
     height: 925px;
@@ -168,3 +171,4 @@ ul {
     padding-block: 7px;
     border-radius: 28%; 
 }
+/* -------- MAIN BOX E LISTE  ------------*/
