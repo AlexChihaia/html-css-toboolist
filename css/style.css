@@ -2,6 +2,7 @@
 /*--------- LOGO ---------*/ 
 header {
     background-color: white;
+    height: 80px;
 }
 
 #logo {
@@ -21,4 +22,46 @@ h1{
 body {
     background-color:#f6f8f9 ;
     margin: 0;
+}
+
+.container {
+    margin: auto;
+    width: 850px;
+    height: 1000px;
+    background-color: red;
+    margin-top: 40px;
+}
+
+.button-box {
+    height: 80px;
+    line-height: 80px;
+    background-color: white;
+    padding-left: 50px;
+    border-top-right-radius: 5%;
+    border-top-left-radius: 5%;
+
+}
+
+#button-task {
+    text-align: center;
+    color: white;
+    background-color: #14aaf5 ;
+    border-width: 1px;
+    border-color: #14aaf5;
+    padding-inline: 12px;
+    padding-block: 8px;
+    border-radius: 15%;
+    
+}
+
+#button-section {
+    text-align: center;
+    color: #c6cdd2;
+    background-color: white ;
+    border-width: 1px;
+    border-color: #c6cdd2 ;
+    padding-inline: 12px;
+    padding-block: 8px;
+    border-radius: 15%;
+    
 }
