@@ -1,3 +1,6 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
 
 /*--------- LOGO ---------*/ 
 header {
@@ -13,7 +16,6 @@ header {
 h1{
     vertical-align: middle;
     display: inline-block;
-    font-family: 'Roboto', sans-serif;;
 }
 
 /*--------- LOGO ---------*/ 
@@ -27,7 +29,7 @@ body {
     margin: auto;
     width: 850px;
     height: 1000px;
-    background-color: red;
+    background-color: #f6f8f9;
     margin-top: 40px;
 }
 
@@ -74,8 +76,95 @@ body {
 
 .liste {
     padding-top: 20px;
+    padding-bottom: 0;
 }
 
 .checked::before {
-    content: /2713;
+    content: '\2713';
+    color: #49ceb7;
+    border: 1px solid #49ceb7;
+    border-radius: 50%;
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    display: inline-block;
+}
+
+li{
+    list-style-type: none;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+ul {
+    padding-left: 0px;
+}
+
+.edit {
+    font-size: 12px;
+    color: white;
+    background-color:#14aaf5;
+    padding-inline: 10px;
+    padding-block: 5px;
+    border-radius: 28%;
+}
+
+.crossed::before {
+    content: '\2716';
+    color: #ff4141;
+    border: 1px solid #ff4141;
+    border-radius: 50%;
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    display: inline-block;
+}
+
+.q1 {
+    font-size: 12px;
+    color: white;
+    background-color:#ab5de6;
+    padding-inline: 12px;
+    padding-block: 7px;
+    border-radius: 28%;
+}
+
+.recruiting {
+    font-size: 12px;
+    color: white;
+    background-color:#2cc6ab;
+    padding-inline: 12px;
+    padding-block: 7px;
+    border-radius: 28%;
+}
+
+.mobile {
+    font-size: 12px;
+    color: white;
+    background-color:#ff9b00;
+    padding-inline: 12px;
+    padding-block: 7px;
+    border-radius: 28%;
+}
+
+.web {
+    font-size: 12px;
+    color: white;
+    background-color:#ec4a9d;
+    padding-inline: 12px;
+    padding-block: 7px;
+    border-radius: 28%; 
+}
+
+.sales{
+    font-size: 12px;
+    color: white;
+    background-color:#a3d116;
+    padding-inline: 12px;
+    padding-block: 7px;
+    border-radius: 28%; 
 }
