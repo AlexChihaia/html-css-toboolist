@@ -1,0 +1,24 @@
+
+/*--------- LOGO ---------*/ 
+header {
+    background-color: white;
+}
+
+#logo {
+    vertical-align: middle;  
+    margin-left: 0;  
+}
+
+h1{
+    vertical-align: middle;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+}
+
+/*--------- LOGO ---------*/ 
+
+body {
+    background-color:#f6f8f9 ;
+    margin: 0;
+}
