@@ -62,6 +62,25 @@ body {
     border-color: #c6cdd2 ;
     padding-inline: 12px;
     padding-block: 8px;
-    border-radius: 15%;
+    border-radius: 15%;   
+}
+
+.main-box {
+    background-color: white;
+    height: 925px;
+    margin-top: 2px;
+    padding-left: 50px;
     
+}
+
+.liste {
+    padding-top: 20px;
+}
+
+li::before{
+    content: /2713;
+}
+
+li {
+    marker: none;
 }
