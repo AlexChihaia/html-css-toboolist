@@ -13,8 +13,7 @@ header {
 h1{
     vertical-align: middle;
     display: inline-block;
-    font-family: 'Roboto', sans-serif;
-    background-color: white;
+    font-family: 'Roboto', sans-serif;;
 }
 
 /*--------- LOGO ---------*/ 
@@ -77,10 +76,6 @@ body {
     padding-top: 20px;
 }
 
-li::before{
+.checked::before {
     content: /2713;
-}
-
-li {
-    marker: none;
 }
