@@ -32,13 +32,14 @@ body {
     margin: auto;
     width: 850px;
     height: 1000px;
+    max-width: 850px;
     background-color: #f6f8f9;
     margin-top: 40px;
 }
 
 /* -------- BUTTON BOX  ------------*/
 .button-box {
-    height: 80px;
+    height: 70px;
     line-height: 80px;
     background-color: white;
     padding-left: 50px;
@@ -55,7 +56,8 @@ body {
     border-color: #14aaf5;
     padding-inline: 12px;
     padding-block: 8px;
-    border-radius: 15%;  
+    border-radius: 15%; 
+    cursor: pointer; 
 }
 
 #button-section {
@@ -66,7 +68,8 @@ body {
     border-color: #c6cdd2 ;
     padding-inline: 12px;
     padding-block: 8px;
-    border-radius: 15%;   
+    border-radius: 15%;  
+    cursor: pointer; 
 }
 /* -------- BUTTON BOX   ------------*/
 
@@ -115,6 +118,7 @@ ul {
     padding-inline: 10px;
     padding-block: 5px;
     border-radius: 28%;
+    border: 1px solid #14aaf5;
 }
 
 .crossed::before {
@@ -137,6 +141,7 @@ ul {
     padding-inline: 12px;
     padding-block: 7px;
     border-radius: 28%;
+    border: 1px solid #ab5de6;
 }
 
 .recruiting {
@@ -146,6 +151,7 @@ ul {
     padding-inline: 12px;
     padding-block: 7px;
     border-radius: 28%;
+    border: 1px solid #2cc6ab;
 }
 
 .mobile {
@@ -155,6 +161,7 @@ ul {
     padding-inline: 12px;
     padding-block: 7px;
     border-radius: 28%;
+    border: 1px solid #ff9b00;
 }
 
 .web {
@@ -164,6 +171,7 @@ ul {
     padding-inline: 12px;
     padding-block: 7px;
     border-radius: 28%; 
+    border: 1px solid #ec4a9d;
 }
 
 .sales{
@@ -173,5 +181,6 @@ ul {
     padding-inline: 12px;
     padding-block: 7px;
     border-radius: 28%; 
+    border: 1px solid #a3d116;
 }
 /* -------- MAIN BOX E LISTE  ------------*/
