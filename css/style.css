@@ -1,11 +1,13 @@
 * {
     font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
 }
 
 /*--------- LOGO ---------*/ 
 header {
     background-color: white;
     height: 80px;
+    padding-left: 20px;
 }
 
 #logo {
@@ -80,6 +82,7 @@ body {
 .liste {
     padding-top: 20px;
     padding-bottom: 0;
+    color: #434851;
 }
 
 .checked::before {
